@@ -1,0 +1,14 @@
+{
+  "name": "cybersecurity-incident-platform-root",
+  "version": "1.0.0",
+  "description": "Cybersecurity Incident Reporting and Response Management Platform (MERN Stack)",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "seed": "cd server && node utils/seed.js",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["cybersecurity", "incident-response", "soc", "mern", "react", "express", "mongodb"],
+  "author": "",
+  "license": "ISC"
+}
